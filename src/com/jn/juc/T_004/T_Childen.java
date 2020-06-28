@@ -14,7 +14,6 @@ public class T_Childen {
 
     synchronized void t1() {
         System.out.println("t1.....start");
-
         try {
             TimeUnit.SECONDS.sleep(1);
         } catch (InterruptedException e) {

@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
  * synchronized 优化：
  * 同步代码块里面的语句越少越好，进行锁粒度细化，提高执行效率
  */
-public class FineCoarseLock {
+public class T01_FineCoarseLock {
 
     int count = 0;
 

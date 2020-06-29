@@ -1,0 +1,12 @@
+同步容器类：
+
+1.Vector  HashTable     : 早期使用synchronized 实现；
+2.ArrayList  HashSet    : 未考虑线程安全问题
+3.HashSet vs HashTable  StringBuilder vs StringBuffer
+4.Collections.synchronizedXXX  工厂使用的依旧是sync
+
+使用早期同步容器的不足之处：
+http://blog.csdn.net/itm_hadf/article/details/7506529
+
+使用新并发容器：
+http://xuganggogo.iteye.com/blog/321630

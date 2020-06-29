@@ -1,0 +1,28 @@
+总结：
+1.对于 map/set 的使用：
+HashMap
+treeMap
+LinkedHashMap
+
+HashTable
+Collections.SynvhronizedXXX
+
+ConcurrentHashMap
+ConcurrentSkipListMap
+
+
+2.队列
+ArrayList
+LinkedList
+Collections.synchronizedXXX
+CopyAndWriteList
+
+Queue:
+ConcurrentLinkedQueue / ConcurrentArrayQueue
+BlockingQueue
+    LinkBlockingQueue
+    ArrayBlockingQueue
+    TransferQueue
+    synchronizedQueue
+
+DelayQueue:执行定时任务

@@ -2,10 +2,9 @@ package juc.T_014_VarHandle;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
-import java.lang.invoke.VarHandle;
-
 public class HelloVarHandle {
 
+/*
     int x = 8;
 
     private static VarHandle varHandle;
@@ -39,6 +38,7 @@ public class HelloVarHandle {
         System.out.println(helloVarHandle.x);
 
     }
+*/
 
 
 }

@@ -7,7 +7,7 @@ import java.lang.ref.WeakReference;
  */
 public class T03_WeakRefence {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         WeakReference<M> mWeakReference = new WeakReference<M>(new M());
 
@@ -20,5 +20,5 @@ public class T03_WeakRefence {
         objectThreadLocal.set(new M());
         objectThreadLocal.remove();
     }
-
+*/
 }

@@ -4,7 +4,7 @@ package juc.T_022_ThreadPool;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class CacheThreadPoolTest {
+public class T01_CacheThreadPoolTest {
     public static void main(String[] args) throws InterruptedException {
         ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
         for (int i = 0; i < 5; i++) {
